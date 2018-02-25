@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,300italic&subset=latin,latin-ext,vietnamese);
+@import url(font-awesome.min.css);
+@import url(common.css);
+.btn:focus { outline: none !important; outline-offset: none !important; }
+
+a:focus { outline: none !important; outline-offset: none !important; }
+
+ul, li { list-style: none; margin: 0px; padding: 0px; }
+
+html, body { width: 100%; color: #333333; font-size: 14px; font-family: 'Roboto'; font-weight: 300; }
+
+.wrapper { position: relative; margin: auto; max-width: 1024px; }
+
+.container { position: relative; max-width: 640px; padding: 0px; }

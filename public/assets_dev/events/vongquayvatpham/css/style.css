@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,300italic&subset=latin,latin-ext,vietnamese);
+@import url(font-awesome.min.css);
+@import url(common.css);
+body { color: #000; font-size: 15px; font-family: 'Roboto'; font-weight: 300; -webkit-font-smoothing: antialiased; }
+
+p { margin-bottom: 0px; }
+
+h1, h2, h3, h4, h5, h6 { margin-top: 10px; margin-bottom: 10px; }
+
+#wrapper { width: 100%; position: relative; }
+
+.list-inline { padding-left: 0; margin-left: 0px; list-style: none; }
+
+.list-inline li { padding: 0px; margin: 0px; }
+
+.list-vp-1 { top: 3%; display: table; margin: auto; }
+.list-vp-1 li { width: 8.8%; margin-left: 3.2%; position: relative; }
+
+.list-vp-2 { bottom: 3%; display: table; margin: auto; right: 4%; }
+.list-vp-2 li { width: 8.8%; position: relative; margin-left: 3.2%; float: right; }
+
+.list-vb-3 { top: 27%; right: 4%; width: 9%; }
+.list-vb-3 li { width: 100%; position: relative; margin: auto; margin-top: 31.5%; }
+.list-vb-3 li:first-child { margin-top: 0px; }
+.list-vb-3 li img { vertical-align: middle; }
+
+.list-vb-4 { top: 27%; left: 3%; width: 9%; }
+.list-vb-4 li { width: 100%; position: relative; margin: auto; margin-top: 31.5%; }
+.list-vb-4 li:first-child { margin-top: 0px; }
+.list-vb-4 li img { vertical-align: middle; }
+
+.img-spin.active:after { width: 119%; height: 117%; background-image: url(../images/active_box.png); background-size: 100%; content: ""; position: absolute; top: -10%; left: -9%; z-index: 2; }
+
+.modal-header { padding: 14px; border-bottom: 0px solid #e5e5e5; background-color: #4b341d; color: #fed518; -webkit-border-top-left-radius: 17px; border-top-left-radius: 17px; -webkit-border-top-right-radius: 17px; border-top-right-radius: 17px; }
+
+.modal-content { -webkit-border-top-left-radius: 15px; border-top-left-radius: 15px; -webkit-border-top-right-radius: 15px; border-top-right-radius: 15px; background-color: #332212; color: #e1ad60; font-size: 16px; border: 1px solid #e8b363; text-align: center; -webkit-border-radius: 15px; border-radius: 15px; }
+
+.close { float: right; position: absolute; right: 10px; top: 5px; font-size: 34px; font-weight: 700; line-height: 1; color: #98733f; text-shadow: 0 0px 0 #98733f; filter: alpha(opacity=100); opacity: 1; }
+
+/*# sourceMappingURL=style.css.map */

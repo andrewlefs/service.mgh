@@ -1,0 +1,31 @@
+/* Resolution >940 and <1280 */
+@media (min-width: 940px) and (max-width: 1279px) {
+	
+}
+
+/* Resolution >=800 and <940 */
+@media (min-width: 800px) and (max-width: 939px) {
+	
+}
+
+/* Resolution >=600 and <800 */
+@media (min-width: 0px) and (max-width: 799px) {
+
+	
+
+}
+
+/*Img retina*/
+/***** Here goes the retina display good stuff ***/
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min--moz-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min-device-pixel-ratio: 2) {
+		#retina .ui-header h1{
+	    background:url(img/logo@2x.png) no-repeat center center;
+	    -webkit-background-size: auto 33px ;
+		   -moz-background-size: auto 33px ;
+				background-size: auto 33px ;
+		}
+			
+}
